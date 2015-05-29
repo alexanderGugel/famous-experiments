@@ -1,0 +1,19 @@
+{
+  "name": "famous-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "watchify examples/index.js -o examples/bundle.js -d -v & st -nc -d examples"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "famous": "^0.5.0"
+  },
+  "devDependencies": {
+    "st": "^0.5.4",
+    "watchify": "^3.2.1"
+  }
+}
